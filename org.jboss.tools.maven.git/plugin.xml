@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.importWizards">
+      
+      <wizard name="Maven projects from Git"
+	    icon="icons/import_obj.gif"
+	    class="org.jboss.tools.maven.git.internal.wizard.ImportMavenProjectsWizard"
+	    id="org.jboss.tools.maven.git.internal.wizard.ImportMavenProjectsWizard"
+	    category="org.maven.ide.eclipse">
+	    <description>Import Maven projects from a Git Repository</description>
+      </wizard>
+   </extension>
+  	
+</plugin>
